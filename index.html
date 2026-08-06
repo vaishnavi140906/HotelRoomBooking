@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>🏨 Luxury Stay</h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Find Your Dream Stay</h1>
+        <p>Luxury rooms at affordable prices</p>
+
+        <button onclick="scrollToBooking()">Book Now</button>
+    </div>
+
+</header>
+
+<section id="rooms">
+    <h1>Our Rooms</h1>
+    <!-- Add your room cards here -->
+</section>
+
+<section id="gallery">
+    <h1>Gallery</h1>
+    <!-- Add your images here -->
+</section>
+
+<section id="contact">
+    <h1>Contact Us</h1>
+    <p>🏨 Luxury Stay Hotel</p>
+    <p>📞 Phone: +91 98765 43210</p>
+    <p>✉️ Email: luxurystay@gmail.com</p>
+    <p>📍 Location: Chennai, Tamil Nadu</p>
+    <!-- Add your contact details here -->
+</section>
+
+<section class="rooms">
+
+<h2>Our Rooms</h2>
+
+<div class="room-container">
+
+<div class="card">
+<img src="images/room1.jpg">
+<h3>Deluxe Room</h3>
+<p>₹2,999 / Night</p>
+<button>Select</button>
+</div>
+
+<div class="card">
+<img src="images/room2.jpg">
+<h3>Executive Room</h3>
+<p>₹4,499 / Night</p>
+<button>Select</button>
+</div>
+
+<div class="card">
+<img src="images/room3.jpg">
+<h3>Suite Room</h3>
+<p>₹6,999 / Night</p>
+<button>Select</button>
+</div>
+
+</div>
+
+</section>
+
+<section class="booking" id="booking">
+
+<h2>Book Your Room</h2>
+
+<form id="bookingForm">
+
+<input type="text" id="name" placeholder="Full Name" required>
+
+<input type="email" id="email" placeholder="Email Address" required>
+
+<label>Check In</label>
+<input type="date" id="checkIn" required>
+
+<label>Check Out</label>
+<input type="date" id="checkOut" required>
+
+<select id="room" required>
+    <option value="">Select Room</option>
+    <option>Deluxe Room</option>
+    <option>Executive Room</option>
+    <option>Suite Room</option>
+</select>
+
+<input type="number" id="guests" placeholder="Guests" required>
+
+<button type="submit">Confirm Booking</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© 2026 Luxury Stay Hotel | Cloud Computing Project</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
